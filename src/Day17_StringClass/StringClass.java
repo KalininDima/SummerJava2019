@@ -20,7 +20,7 @@ public static void main(String[] args) {
 	
 	int num = fullName.length();
 	
-	System.out.println(fullName2+" contains "+num+"characters");
+	System.out.println(fullName2+" contains "+num+" characters");
 	int lastIndexNum = fullName2.length()-1;
 	System.out.println(fullName2.charAt(lastIndexNum));
 	
