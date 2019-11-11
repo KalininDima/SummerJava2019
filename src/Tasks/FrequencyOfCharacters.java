@@ -14,16 +14,17 @@ str ="AAABBCDDDDEE";
 output:  A3B2C1D4E2
 	 */
 	Scanner sc = new Scanner (System.in);
-	
 	String characters = sc.nextLine();
 	int l = characters.length()-1;
+	
+	
+	
 	String newC = "";
 	int count = 0;
-	int i;
-	int j;
+	
 	String countI;
-	for (i = 0; i<=l;i++ ) {
-		for(j = 0; j<=l;j++) {
+	for (int i = 0; i<=l;i++ ) {
+		for(int j = 0; j<=l;j++) {
 			if(characters.substring(i,i+1).equals(""+characters.charAt(j))){
 				count++;		
 			} 
@@ -40,9 +41,7 @@ output:  A3B2C1D4E2
 		count=0;
 	}
 	System.out.println(newC);
-	
-	
-	
+
 	
 }
 }

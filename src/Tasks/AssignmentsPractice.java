@@ -1,5 +1,6 @@
 package Tasks;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -103,29 +104,28 @@ do {
 	*/
 
 
+double e =13000;
 
-int data[] = {  2010,  2013,  2014,  2015,  2014 };
+int c = (short)e;
+System.out.println(c);
+int r = 5;
+ArrayList<Integer> a = new ArrayList<>();
+a.add(r);
+Integer t [] = new Integer[2];
+t[0] = r;
+Short y = 1;
 
-int key = 2014;
+long g =y;
+Integer i = new Integer(1);
 
-int count = 0;
-
-    for ( int  e :  data ) {
-
-             if(e != key) {
-
-                     break;
-
-                   
-                     }
-             for (int i=0;i>=i;i++) {                                                                                                            
-            	 
-            	 System.out.println("A");
-                   }
-
-        }
-
-System.out.println ( count + " Found ");
-
+double h = i;
+boolean check = h==g;
+System.out.println(a);
+System.out.println(Arrays.toString(t));
+System.out.println(y);
+System.out.println(g);
+System.out.println(i);
+System.out.println(h);
+ 
 }
 }

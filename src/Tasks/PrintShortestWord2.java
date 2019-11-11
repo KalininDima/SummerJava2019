@@ -1,5 +1,6 @@
 package Tasks;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class PrintShortestWord2 {
@@ -18,8 +19,27 @@ public static void main(String[] args) {
 	
 	Scanner scan = new Scanner(System.in);
     String str = scan.nextLine();
+
+    String [] newStr = str.split(", ");
+    int min = 999999;
+	String wordS ="";
 	
-    String [] newStr = str.split(",");
-	
+    for (int i = 0;i < newStr.length;i++) {
+    	 if(newStr[i].length()<=min) {
+    		 min = newStr[i].length();
+    		 wordS=newStr[i];
+    	 }
+    }
+    for (int j = 0;j<newStr.length;j++) {
+    	if(newStr[j].length()==min&&!wordS.contains(newStr[j])) {
+    		wordS+=" " +newStr[j];
+    	}
+    }
+    
+     
+     String [] MainW = wordS.split(" ");
+     Arrays.sort(MainW);
+     System.out.println(Arrays.toString(MainW));
+  
 }
 }

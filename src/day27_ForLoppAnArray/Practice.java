@@ -21,7 +21,7 @@ public static void RemoveDublicates(String str){
 	int l = str.length()-1;
 	String result = "";
 	for (int i = 0;i<=l;i++) {	
-			if(!resultU.contains(str.substring(i,i+1))){
+			if(!result.contains(str.substring(i,i+1))){
 			result+=str.charAt(i);
 			}
 	}

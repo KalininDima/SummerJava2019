@@ -31,5 +31,8 @@ public static void main(String[] args) {
 	}
 	System.out.println(sum);
 	
+	
+	int [] nine =new int [9];
+nine[3] = 4;
 }
 }

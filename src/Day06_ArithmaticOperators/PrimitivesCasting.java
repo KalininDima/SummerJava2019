@@ -29,9 +29,9 @@ public class PrimitivesCasting {
 		long LongNum = 300L;
 		
 		//	int intNum = (int)LongNum;
-		int intNum = (short)LongNum;
+		byte intNum = (byte)LongNum;
 		
-		System.out.println();
+		System.out.println(intNum);
 	//	implicit cssting:
 						byte ByteNum = 100;
 						int IntNum2 = ByteNum;
