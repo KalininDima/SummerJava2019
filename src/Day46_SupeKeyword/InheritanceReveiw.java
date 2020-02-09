@@ -39,7 +39,7 @@ class Data {
     int num4 = 40;
     
 }
-public class eee  extends Data{
+public class InheritanceReveiw extends Data{
     //          sub                     super           
     
     /*

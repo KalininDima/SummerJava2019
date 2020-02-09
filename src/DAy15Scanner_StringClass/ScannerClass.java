@@ -37,7 +37,7 @@ public static void main(String[] args) {
 	System.out.println("Enter number:");
 	int x = input.nextInt();
 	//WRITE YOUT CODE HERE
-	x=x>=5? "x":"-x";
+	//x=x>=5?"x":(String) "-x";
 	System.out.println(x);
 }
 }

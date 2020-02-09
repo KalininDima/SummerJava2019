@@ -103,10 +103,6 @@ public static void main(String[] args) {
         
         
         
-        int i1 = 1;
-        do {
-        	for (int j = 1; j<=i ; j++);
-        }
-         
+        
 }
 }

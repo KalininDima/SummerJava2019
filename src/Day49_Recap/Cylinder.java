@@ -59,7 +59,7 @@ protected void Area () {
 }
 
 @Override
-protected void perimiter () {
+protected void perimeter () {
 	double perimiter = 2* (PI * diameter + height);
 }
 

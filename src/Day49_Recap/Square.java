@@ -13,7 +13,7 @@ protected void Area () {
 }
 
 @Override
-protected void perimiter () {
+protected void perimeter () {
 	double perimeter = side * 4; 
 	System.out.println("Perimiter of the square "+perimeter);
 }

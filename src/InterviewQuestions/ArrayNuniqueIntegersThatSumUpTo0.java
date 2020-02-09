@@ -53,7 +53,10 @@ public static int[] N (int n) {
 		int use = r.nextInt(min-max);
 		System.out.println(use);
 		*/
+		
 	}
+	
+
 	
 	
 }

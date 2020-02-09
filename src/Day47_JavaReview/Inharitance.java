@@ -45,7 +45,7 @@ public class Inharitance  extends B {
 	
 	public static void main(String[] args) {
 		
-		Inheritance obj = new Inheritance();
+		Inharitance obj = new Inharitance();
 		
 		System.out.println( obj.name1  ); 
 		System.out.println( obj.name2  ); 

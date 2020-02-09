@@ -3,7 +3,6 @@ package InterviewQuestions;
 public class StringFrequencyOfCharacters {
 	public static void FrequencyCharacters(String a) {
 		String str = "AAAAABBggDDQQELLLYY";
-			
 			int count = 0;
 			String U= "";
 			

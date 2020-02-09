@@ -7,11 +7,11 @@ public class Action  extends Movie{
 	}
 	
 	
-	public String toString() {
-		"Action{"+" rating = " + rating +'\''+ 
-		", id Number = " + idNumber + '\''+
-		" title = "+title+"}"
-		}
+//	public String toString() {
+//		"Action{"+" rating = " + rating +'\''+ 
+//		", id Number = " + idNumber + '\''+
+//		" title = "+title+"}"
+//		}
 	
 	
 }

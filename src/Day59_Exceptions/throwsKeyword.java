@@ -1,4 +1,8 @@
 package Day59_Exceptions;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 /*
  * Throws keyword : used for handling exceptions
  * 					used with method signature, indicates that method might throw exception

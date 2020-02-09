@@ -46,7 +46,12 @@ public class Practice {
                 
     }
 }
-final class Erhan extends Practice{  // immutable
+
+
+
+
+
+final class Dima extends Practice{  // immutable
     
     private final String PassWord ="cybertekbatch12";
     

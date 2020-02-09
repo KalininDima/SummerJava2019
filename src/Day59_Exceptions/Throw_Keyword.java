@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	//System.out.println("Test completed");
 	
 	
-	throw new IOException();
+	throw new RuntimeException();
 	
 }
 }

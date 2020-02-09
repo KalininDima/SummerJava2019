@@ -36,7 +36,7 @@ public class Rectangle extends Shape {
  }
  
  @Override
- protected void perimiter() {
+ protected void perimeter() {
 	 double perimiter = (length+width)* 2;
 	 System.out.println("Perimiter of the rectangle is "+perimiter);
  }

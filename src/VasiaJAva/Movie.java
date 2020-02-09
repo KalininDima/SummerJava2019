@@ -64,10 +64,12 @@ public double calcLateFees(int days) {
 }
 
 public Movie getMovieById(Movie [] movies, int movieID) {
-	for (Movie m: movies) {
+	for (Movie m : movies) {
 		if (m.idNumber == movieID) {
 			return m;
 		}
+	
 	}
+	return movies[2];
 }
 }
